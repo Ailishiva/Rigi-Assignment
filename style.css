@@ -324,9 +324,7 @@
 
 .card-container {
     display: flex;
-    gap: 25px;
-    margin-left: 129px;
-    /* justify-content: space-evenly; */
+     justify-content: space-evenly; 
     overflow: hidden;
     /* display: flex;
     justify-content: space-evenly;
@@ -487,7 +485,7 @@
 }
 
 .email-text-1 {
-    color: #e8eff6;
+    color: gray;
 }
 
 .footer {
