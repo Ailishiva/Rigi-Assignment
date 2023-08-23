@@ -1,4 +1,4 @@
-/* .navbar {
+* .navbar {
     background-color: #C5DFF8;
     height: 20px;
 } */
@@ -68,6 +68,7 @@
 .heading-para {
     font-family: monospace;
     letter-spacing: 1px;
+    width: 477px
 }
 
 .section-3 {
@@ -223,6 +224,11 @@
     align-items: center;
 }
 
+.dream-11-title {
+    width: 294px;
+    font-size: 21px;
+}
+
 .button-4 {
     width: 240px;
     border-radius: 23px;
@@ -288,6 +294,13 @@
     text-align: center;
 }
 
+.footer-copyright1 {
+    margin-left: 40px;
+}
+
+.footer-copyright2 {
+    margin-left: 40px;
+}
 
 .container {
     padding: 2px 16px;
@@ -307,6 +320,7 @@
 
 .container-para {
     font-size: 17px;
+    width: 332px;
 }
 
 
@@ -324,11 +338,17 @@
 
 .card-container {
     display: flex;
-     justify-content: space-evenly; 
+    justify-content: space-evenly;
     overflow: hidden;
     /* display: flex;
     justify-content: space-evenly;
     overflow: hidden; */
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .consultation-btn-1 {
@@ -433,6 +453,7 @@
 
 .video {
     width: 82%;
+    height: 545px;
     border: none;
     border-radius: 25px;
 }
@@ -445,6 +466,12 @@
     height: 900px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+
+.contact-section {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .app-content-section1 {
@@ -470,6 +497,14 @@
 .contact-heading {
     font-weight: bold;
     font-size: 27px;
+}
+
+#bars {
+    display: none;
+}
+
+.button2 {
+    display: none;
 }
 
 .email-icon {
@@ -502,4 +537,365 @@
     margin: 10px;
 }
 
+.club-para-1 {
+    width: 515px;
+    font-family: math
+}
+
+.laptop-img {
+    padding: 45px;
+}
+
 /* Add more styles here as needed */
+
+
+@media only screen and (max-width: 320px) {
+    .section {
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .section-2 {
+        display: block;
+        padding: 6px;
+    }
+
+    .heading {
+        font-size: 27px;
+    }
+
+    .heading-section {
+        color: white;
+        width: 320px;
+        padding-top: 13px;
+    }
+
+    .heading-para {
+        font-family: cursive;
+        letter-spacing: 0px;
+        width: 307px
+    }
+
+    .button {
+        display: none;
+        /* color: #305bfa;
+        padding: 11px;
+        margin-top: 0px;
+        border-radius: 28px;
+        width: 300px;
+        border: none;
+        font-weight: 600; */
+    }
+
+    .card-container {
+        display: block;
+        overflow: hidden;
+        /* display: flex;
+        justify-content: space-evenly;
+        overflow: hidden; */
+    }
+
+    .contact-section {
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .feature-1 {
+        font-size: 22px;
+        letter-spacing: -2px;
+        margin-right: 0px;
+    }
+
+    .first-leter {
+        font-size: 25px;
+    }
+
+    .feature-4 {
+        font-size: 23px;
+        margin-right: 0px;
+    }
+
+    .feature-5 {
+        display: none;
+    }
+
+    .remaining-leters {
+        font-size: 17px;
+    }
+
+    .feature-3 {
+        font-size: 22px;
+    }
+
+
+    .feature-2 {
+        margin-right: 0px;
+    }
+
+    .about-me {
+        font-weight: 600;
+        padding: 18px;
+        font-size: 22px;
+    }
+
+    .img-section {
+        padding: 0px;
+    }
+
+    .person-img {
+        width: 320px;
+        height: 331px;
+    }
+
+    .detail-para {
+        padding: 7px;
+    }
+
+    #fa {
+        font-size: 19px !important;
+        padding: 6px;
+        margin: 5px;
+    }
+
+    .services-heading {
+        font-size: 23px;
+    }
+
+    .buttons {
+        display: flex;
+        width: 320px;
+        justify-content: space-evenly;
+    }
+
+    .button-1 {
+
+        margin: auto;
+        padding: 7px;
+        /* font-size: 11px; */
+        border-radius: 15px;
+        border: none;
+        width: 100px;
+
+    }
+
+    .button-2 {
+        width: 100px;
+        padding: 6px;
+        margin: auto;
+    }
+
+    .button-3 {
+        padding: 8px;
+        margin: auto;
+        width: 100px;
+    }
+
+    .club-section {
+        display: block;
+        text-align: initial;
+        padding: 8px;
+    }
+
+    .club-title {
+        font-size: 33px;
+    }
+
+    .club-para-1 {
+        width: 310px;
+
+    }
+
+    .button-4 {
+        display: none;
+    }
+
+    .student4 {
+        width: 300px;
+        margin-bottom: 28px;
+    }
+
+    .club-points {
+        font-size: 16px;
+    }
+
+    .courses-buttons {
+        display: flex;
+        width: 320px;
+        margin: 0px;
+        padding: 6px;
+        justify-content: space-evenly;
+    }
+
+    .courses-btn-1 {
+        width: 100px;
+        padding: 6px;
+        margin: auto;
+    }
+
+    .courses-btn-2 {
+        margin: auto;
+        padding: 7px;
+        border: none;
+        width: 100px;
+    }
+
+    .courses-btn-3 {
+        width: 100px;
+        padding: 6px;
+        margin: auto;
+    }
+
+    .card {
+        margin: 10px;
+        width: 300px;
+        text-align: initial;
+    }
+
+    .container {
+        text-align: initial;
+    }
+
+    .container-para {
+        font-size: 14px;
+        width: 272px;
+    }
+
+    .container-button {
+        padding: 9px;
+        font-size: 17px;
+        width: 278px;
+    }
+
+    .consultation-btn-1 {
+        width: 100px;
+        padding: 6px;
+        margin: auto;
+    }
+
+    .consultation-btn-2 {
+        width: 100px;
+        padding: 6px;
+        margin: auto;
+    }
+
+    .consultation-btn-3 {
+        margin: auto;
+        padding: 7px;
+        border: none;
+        width: 100px;
+    }
+
+    .consultation-buttons {
+        display: flex;
+        width: 320px;
+        margin: 0px;
+        padding: 6px;
+        justify-content: space-evenly;
+    }
+
+    .dream-11-title {
+        width: 266px;
+        font-size: 14px;
+    }
+
+    #fa-phone {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: initial;
+    }
+
+    .consultant-icons {
+        margin: 8px;
+
+    }
+
+    .consultant-button {
+        width: 280px;
+    }
+
+    .testimonials-container {
+
+        display: flex;
+        justify-content: space-evenly;
+        width: 900px;
+    }
+
+    .testimonials-card {
+        margin: 8px;
+    }
+
+    .person-name {
+        font-size: 22px;
+    }
+
+    .services {
+
+        font-size: 17px;
+    }
+
+    .video {
+        width: 93%;
+        height: 229px;
+        border-radius: 20px;
+    }
+
+    .app-content-section {
+        height: 570px;
+        border-top-left-radius: 35%;
+        border-top-right-radius: 35%;
+    }
+
+    .app-content-section2 {
+        font-size: 18px;
+    }
+
+    .app-content-section-btn {
+        width: 260px;
+    }
+
+    .contact-heading {
+        font-size: 24px;
+    }
+
+    .laptop-img {
+        padding: 0px;
+    }
+
+    .email-icon {
+
+        padding: 15px;
+        color: black;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .footer-copyright1 {
+        margin-left: 44px;
+    }
+
+    #bars {
+        display: unset;
+    }
+
+    .button2 {
+        color: #305bfa;
+        padding: 11px;
+        display: unset;
+        margin-top: 0px;
+        border-radius: 28px;
+        width: 300px;
+        border: none;
+        font-weight: 600;
+    }
+
+    .footer-copyright2 {
+        margin-left: 16px;
+    }
+}
